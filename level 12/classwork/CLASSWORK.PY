@@ -1,0 +1,6 @@
+name = input("დაწერე შენი სახელი:")
+print(name)
+surname = input("დაწერე შენი გვარი:")
+print(surname)
+age = input("დაწერე შენი წელი")
+print(age)
