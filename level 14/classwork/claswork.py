@@ -1,0 +1,5 @@
+name = input("enter you name:")
+print(name)
+surname = input("enter you surname:")
+print(surname)
+print(name + " " + surname)
