@@ -1,0 +1,125 @@
+level 3:
+
+print - დაბეჭვდა
+syntax - წერის სტილი
+define - შექმნა
+parentheses - ფრჩხილები
+quotation marks - ბრჭყალები
+variable - ცვლადი
+შექმნა - დეკლალირება
+variable name - ცვლადის სახელი
+variable value - ცვლადის მნიშვნელობა
+equal sign - ტოლობა, უდრის
+device - მოწყობილობა
+
+level 4:
+
+Data - მონაცემი
+surround - მოქცევა, მოიცავდეს
+quotation marks - ბრჭყალები
+statement - წინადადება, განცხადება
+output - შედეგი
+numerical data - რიცხვითი მონაცემი
+value - მნიშვნელობა
+multiply - გამრავლება
+access - წვდომა, მივწვდეთ
+store - მაღაზია, შენახვა
+
+level 5:
+
+angle brackets - მეტობა - ნაკლებობის ნიშნები
+button - ღილაკი
+image - სურათი
+source - წყარო
+
+Level 6:
+
+integer, int - მთელი რიცხვი
+float - ათწილადი
+string, str - ტექსტური მონაცემი
+concatenate - კონკატინაცია, იგივე მიწერა
+reassigning - რედეკლარაცია, მნიშვნელობის თავიდან ჩაწერა
+run - გაშვება
+debugging - შეცდომების გამოსწორება
+typo - მარტივი წერის შეცდომა (->, =)
+execute - შესრულება
+interrupt - ხელის შეშლა, შეწყვეტა
+encounter - აღმოჩენა, პოვნა
+
+level 7:
+
+empty - ცარიელი
+headings - სათაურები
+request - მოთხოვნა
+response - პასუხი
+
+level 8:
+
+hash symbol # - დიეზი #
+declare - შექმნა
+transaction - გადარიცხვა
+explanation - ახსნა, განმარტება
+temporarily - დროებით
+disable - გაუქმება
+case-sensitive - ქეისზე (დიდი ასო, პატარა ასო) დამოკიდებული
+underscore - ქვედატირე _
+
+level 9:
+
+explain - ახსნა
+temporarily - დროებით
+
+Level 10:
+
+input - მიწოდება, მიწოდებული ინფორმაცია, შემოტანილი ინფორმაცია
+output - შედეგი, გამოტანილი ინფორმაცია
+
+Level 11:
+
+compatible - თავსებადი, მორგებული
+nesting - ჩაშენება, ჩასმა
+nest - ბუდე
+title - სათაური
+indentation - ინდენტაცია
+bold - მუქი ფერი, გამუქება
+italic - დახრილი ტექსტი
+bold text - გამუქებული ტექსტი
+underline - ქვემოთა ხაზი
+underline text - ტექსტი, რომელსაც ქვემოდან ხაზი აქვს გასმული
+
+Level 12:
+
+user - მომხმარებელი
+data type - მონაცემთა ტიპი
+
+Level 13:
+
+Screen readers - ეკრანის წამკითხველი
+link - დაკავშირება
+anchor - ღუზა
+
+Level 14:
+
+check - შემოწმება
+type - ტიპი
+Data Conversion - მონაცემის გადაყვანა
+  
+level 15:
+
+no words
+
+Level 16:
+
+Comparsion operator - შედარების ოპერატორი
+Logical operator - ლოგიკური ოპერატორი
+Combine - გაერთიანება
+
+Level 18:
+
+sequence - თანმიმდევრობა
+iteration - გამეორება
+selection - სელექცია, არჩევა
+ალგორითმი - ნაბიჯ ნაბიჯ გარკევული თანმიმდევრობით ინსტრუქციების ერთობლიობა
+flowchart - დიაგრამა, ალგორითმის ვისუალიზაცია
+pseudocode - ფსევდოკოდი
+natural language - ბუნებრივი ენა
