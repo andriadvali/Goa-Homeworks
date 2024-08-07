@@ -14,12 +14,7 @@
     <title>level 11</title>
 </head>
 
-<body>
-    <h1>Product name</h1>
-    <p>Product price</p>
-    <p>Info<br>Useful product</p>
-    <p>Hello</p>
-</body>
+
 
 <!--
 დალაგებული სია - Ordered list <ol> </ol>
@@ -35,18 +30,50 @@
 
     </head>
     <body>
-        <h1>Lists in HTML</h1>
-        <h2>Ordered List</h2>
-        <ol>
-           <li>Python</li>
-           <li>HTML</li>
-           <li>CSS</li>
-        </ol>
-        <h2>Unordered List</h2>
-        <ul>
-            <li>Python</li>
-            <li>HTML</li>
-            <li>CSS</li>
-        </ul>
+        #
+
+<!-- dropdown menus -->
+    <!-- 1. მის შესაქმნელად უნდა დავწეროთ select თეგი -->
+    <!-- 2. როდესაც გვინდა ასარჩევის შექმნა, უნდა დავწეროთ option თეგი -->
+    <!-- 3. option თეგს აუცილებლად უნდა ქონდეს value ატრიბუტი -->
+
+    <br><br>
+    <label for="brand-select">Select brand:</label>
+    <select id="brand-select">
+        <option value="bmw">BMW</option>
+        <option value="audi">Audi</option>
+        <option value="mercedes">Mercedes</option>
+    </select>
+
+    <form>
+        <label for="brand-select">Select brand:</label>
+        <select id="brand-select">
+            <option value="bmw">BMW</option>
+            <option value="audi">Audi</option>
+            <option value="mercedes">Mercedes</option>
+        </select>
+
+        <input type="submit">
+    </form>
+
+    <form>
+        <label for="brand-select">Select brand:</label>
+        <select id="brand-select" name="car-brand-select">
+            <option value="none"></option>
+            <option value="bmw">BMW</option>
+            <option value="audi">Audi</option>
+            <option value="mercedes">Mercedes</option>
+        </select>
+
+        <input type="submit">
+    </form>
+<!-- dropdown menus -->
+    <!-- 1. მის შესაქმნელად უნდა დავწეროთ select თეგი -->
+    <!-- 2. როდესაც გვინდა ასარჩევის შექმნა, უნდა დავწეროთ option თეგი -->
+    <!-- 3. option თეგს აუცილებლად უნდა ქონდეს value ატრიბუტი -->
+    <!-- 4. select კონტეინერ თეგს აუცილებლად უნდა ქონდეს name ატრიბუტი -->
+    <!-- 5. თუ ჩვენ გვინდა, რომ წინასწარ არჩეული იყოს რომელიმე option, მაშინ უნდა გამოვიყენოთ selected ატრიბუტი -->
+
+        
     </body>
 </html>
