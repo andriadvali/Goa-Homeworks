@@ -74,6 +74,27 @@
     <!-- 4. select კონტეინერ თეგს აუცილებლად უნდა ქონდეს name ატრიბუტი -->
     <!-- 5. თუ ჩვენ გვინდა, რომ წინასწარ არჩეული იყოს რომელიმე option, მაშინ უნდა გამოვიყენოთ selected ატრიბუტი -->
 
-        
+        <!-- 1. ვიდეოს თეგის შესაქმნელად ჩვენ გვჭირდება <video></video> -->
+
+    <video controls autoplay muted loop>
+        <source src="countdown.mp4" type="video/mp4">
+        <source src="countdown2.mkv" type="video/mkv">
+        Video Not Supported
+    </video>
+
+    <!-- 2. თუ გვინდა, რომ ვიდეოს დაპაუზება, გადახვევა, მისი ხმის შეცვლა შეგვეძლოს, მაშინ გამოვიყენებთ controls ატრიბუტს -->
+    <!-- 3. controls ატრიბუტი დაიწერება video-ს გამხსნელ თეგში -->
+
+    <audio controls autoplay muted loop>
+        <source src="intro.mp3" type="audio/mp3">
+        <source src="intro2.wav" type="audio/wav"> 
+        Audio Not Supported
+    </audio>
+
+    <!-- autoplay, muted, loop -->
+    <!-- 1. autoplay - ავტომატურად აუდიოს / ვიდეოს ჩართვა -->
+    <!-- 2. muted - ხმას ვერ გავიგებთ -->
+    <!-- 3. loop - როდესაც ვიდეო ან აუდიო მორჩება, ავტომატურად თავიდან გაეშვება -->
+
     </body>
 </html>
