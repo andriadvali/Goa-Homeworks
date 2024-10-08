@@ -1,0 +1,13 @@
+h1{
+    color: mediumspringgreen;
+    background-color:khaki;
+}
+p{
+    color: grey;
+    background-color: darkslategray;
+}
+button{
+    border-color: aliceblue;
+    background-color: aqua;
+    border: dashed 10px;
+}
