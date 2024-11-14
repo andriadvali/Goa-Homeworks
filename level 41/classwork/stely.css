@@ -1,11 +1,26 @@
-p{
-    color:blue;
-    background-color: black;
-    text-align: center;
-   
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family: "Poppins", sans-serif;
 }
-h1{
-    color:gold;
-    background-color:black ;
-    text-align: center;
+
+td, tr{
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+
+tr:nth-child(1) td{
+    background-color: tomato;
+}
+
+tr:nth-child(2) td{
+    background-color: skyblue;
+}
+
+tr:nth-child(3) td{
+    background-color: darkgreen;
+}
+
+tr:nth-child(4) td{
+    background-color: darkgoldenrod;
 }

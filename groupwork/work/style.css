@@ -1,0 +1,13 @@
+input{ 
+    color: red;
+    background-color: black;
+    
+    
+}
+
+body{
+
+    background-image: url('bank-building.png');
+    background-size: cover;
+}
+

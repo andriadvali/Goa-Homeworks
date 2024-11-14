@@ -1,0 +1,12 @@
+.box {
+    height: 400px;
+    width: 400px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-left:20px solid red;
+    border-right:20px solid blue;
+    border-top:20px solid goldenrod;
+    border-bottom:20px solid black;
+}
