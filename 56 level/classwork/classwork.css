@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: large;
+    font-family: sans-serif;
+}
+.weap-text{
+    border: 2px solid red;
+    background-color: red;
+}
+
+.position{
+    position: relative;
+    top: -152px;
+    left: 0;
+    height: 100px;
+    width: 100%;
+    border: 2px solidi aqua;
+    background-color: hsl(180, 100%, 50%, 0.3);
+    color: blue;
+}
+
+.text-red-bold{
+    font-weight: bold;
+    color: red;
+    font-size: 20px;
+}
