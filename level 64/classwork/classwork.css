@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.bounce {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border-radius: 50%;
+
+    animation-name:bounce;
+    animation-timing-function: ease;
+    animation-duration: 1s;
+    animation-delay: 2000ms;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+@keyframes bounce {
+
+
+    from {
+        transform: translateX(0px);
+        
+    }
+
+    to {
+        transform: translateX(100vw);
+        background-color: brown;
+    }
+}
+
