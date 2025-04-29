@@ -1,0 +1,47 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+}
+
+.circle-div {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #ffcc00;
+    animation-name: animation1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+    font-weight: 900;
+}
+
+#div2 {
+    animation-timing-function: linear;
+}
+#div3 {
+    animation-timing-function: linear;
+}
+#div4 {
+    animation-timing-function: linear;
+}
+
+
+
+@keyframes animation1 {
+    from {
+        transform: scale(1) translateY(0px);
+    }
+    50% {
+        transform: scale(1.5) translateY(-300px);
+    }
+    to {
+        transform: scale(1) translateY(0px);
+    }
+}
